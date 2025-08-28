@@ -1,0 +1,31 @@
+ERROR:root:ETL Pipeline failed: Can't load plugin: sqlalchemy.dialects:snowflake
+INFO:root:Extracting sale data from https://api.rentcast.io/v1/listings/sale?city=Austin&state=TX&status=Active&limit=500
+INFO:root:Extracting rental data from https://api.rentcast.io/v1/listings/rental/long-term?city=Austin&state=TX&status=Active&limit=500
+INFO:root:Transforming data
+INFO:root:Creating Snowflake schema
+INFO:snowflake.connector.connection:Snowflake Connector for Python Version: 3.17.2, Python Version: 3.13.7, Platform: Windows-11-10.0.26100-SP0
+INFO:snowflake.connector.connection:Connecting to GLOBAL Snowflake domain
+ERROR:root:Schema creation failed: (snowflake.connector.errors.HttpError) 290404 (08001): None: 404 Not Found: post account.snowflakecomputing.com:443/session/v1/login-request
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+ERROR:root:ETL Pipeline failed: (snowflake.connector.errors.HttpError) 290404 (08001): None: 404 Not Found: post account.snowflakecomputing.com:443/session/v1/login-request
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+INFO:root:Extracting sale data from https://api.rentcast.io/v1/listings/sale?city=Austin&state=TX&status=Active&limit=500
+INFO:root:Extracting rental data from https://api.rentcast.io/v1/listings/rental/long-term?city=Austin&state=TX&status=Active&limit=500
+INFO:root:Transforming data
+INFO:root:Creating Snowflake schema
+INFO:snowflake.connector.connection:Snowflake Connector for Python Version: 3.17.2, Python Version: 3.13.7, Platform: Windows-11-10.0.26100-SP0
+INFO:snowflake.connector.connection:Connecting to GLOBAL Snowflake domain
+ERROR:root:Schema creation failed: (snowflake.connector.errors.HttpError) 290404 (08001): None: 404 Not Found: post account.snowflakecomputing.com:443/session/v1/login-request
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+ERROR:root:ETL Pipeline failed: (snowflake.connector.errors.HttpError) 290404 (08001): None: 404 Not Found: post account.snowflakecomputing.com:443/session/v1/login-request
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+INFO:root:Extracting sale data from https://api.rentcast.io/v1/listings/sale?city=Austin&state=TX&status=Active&limit=500
+INFO:root:Extracting rental data from https://api.rentcast.io/v1/listings/rental/long-term?city=Austin&state=TX&status=Active&limit=500
+INFO:root:Transforming data
+INFO:root:Loading data to Snowflake
+INFO:snowflake.connector.connection:Snowflake Connector for Python Version: 3.17.2, Python Version: 3.13.7, Platform: Windows-11-10.0.26100-SP0
+INFO:snowflake.connector.connection:Connecting to GLOBAL Snowflake domain
+ERROR:root:Data loading failed: (snowflake.connector.errors.HttpError) 290404 (08001): None: 404 Not Found: post account.snowflakecomputing.com:443/session/v1/login-request
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+ERROR:root:ETL Pipeline failed: (snowflake.connector.errors.HttpError) 290404 (08001): None: 404 Not Found: post account.snowflakecomputing.com:443/session/v1/login-request
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
